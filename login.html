@@ -1,3 +1,5 @@
+<!--
+
 <div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-md-offset-4">
@@ -36,4 +38,31 @@
     </div>
 
 </div>
+-->
 
+<div class="login-view">
+    <div class="wrapper">
+        <div class="container">
+            <h1>Welcome</h1>
+
+            <form class="form" name="loginForm" ng-submit="gmailLoginCtrl.login(gmailLoginCtrl.credentials)" novalidate>
+                <input type="text" class="login" placeholder="Username" ng-model="gmailLoginCtrl.credentials.login">
+                <input type="password" class="password" placeholder="Password" ng-model="gmailLoginCtrl.credentials.password">
+                <button type="submit" id="login-button" ng-click="">Login</button>
+            </form>
+        </div>
+
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>

@@ -37,8 +37,6 @@ app.directive('login', function ($state, AuthService) {
             };
         },
         controllerAs: "loginCtrl"
-
-
     }
 });
 
